@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      body{
+          background: linear-gradient(90deg, black,#333);
+      }
+
+      :root{
+          --transition:cubic-bezier(0.1,0.7,0,1);
+      }
+
+      .wrapper{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+      }
+
+      .imgs-parent{
+          display: flex;
+          gap: 0.4rem;
+          perspective: 60rem;
+      }
+
+      .img{
+          width: 5.4rem;
+          height: 21rem;
+          background-size: cover;
+          background-position: center;
+          cursor: pointer;
+          transition: transform 1.25s var(--transition);
+      }
+
+      .img:hover{
+          transform: translateZ(17.375rem);
+      }
+
+      .img:hover + *{
+        transform: translateZ(14.77rem) rotateY(35deg);
+        z-index: -1;
+      }
+
+      .img:hover + *{
+        transform: translateZ(14.77rem) rotateY(35deg);
+        z-index: -1;
+      }
+
+      .parent{
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="imgs-parent">
+        <div
+          class="img img1"
+          style="background-image: url(/images/1.jpg)"
+        ></div>
+        <div
+          class="img img2"
+          style="background-image: url(/images/2.jfif)"
+        ></div>
+        <div
+          class="img img3"
+          style="background-image: url(/images/3.jfif)"
+        ></div>
+        <div
+          class="img img4"
+          style="background-image: url(/images/4.jfif)"
+        ></div>
+        <div
+          class="img img5"
+          style="background-image: url(/images/5.jfif)"
+        ></div>
+        <div
+          class="img img6"
+          style="background-image: url(/images/6.jfif)"
+        ></div>
+        <div
+          class="img img7"
+          style="background-image: url(/images/7.jfif)"
+        ></div>
+        <div
+          class="img img8"
+          style="background-image: url(/images/8.jfif)"
+        ></div>
+        <div
+          class="img img9"
+          style="background-image: url(/images/9.jfif)"
+        ></div>
+        <div
+          class="img img10"
+          style="background-image: url(/images/10.jfif)"
+        ></div>
+        <div
+          class="img img11"
+          style="background-image: url(/images/11.jfif)"
+        ></div>
+        <div
+          class="img img12"
+          style="background-image: url(/images/12.jfif)"
+        ></div>
+        <div
+          class="img img13"
+          style="background-image: url(/images/13.webp)"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>

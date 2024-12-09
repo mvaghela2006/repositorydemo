@@ -1,0 +1,457 @@
+* {
+  -border: 1px solid red;
+}
+
+body {
+  font-family: "Frank Ruhl Libre", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 99%;
+}
+
+.header .nav-item .nav-link {
+  padding-inline: 15px;
+  -border: 1px solid red;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header .nav-link {
+  padding-inline: 15px;
+  -border: 1px solid red;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header {
+  background-color: transparent;
+  -border: 1px solid red;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+
+.header_logo {
+  height: 25px;
+  width: 120px;
+}
+
+.zero {
+  border: none;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: -0.1px;
+  right: 14px;
+  font-weight: bold;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  font-size: 11px;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  border: none;
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 240px;
+  background: #fff;
+  border-radius: 0;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.dropdown-menu a:hover {
+  color: green;
+  background-color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.bg-image {
+  background-image: url(/images/b1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for centered text */
+
+.main_txt {
+  -border: 1px solid red;
+}
+
+.text_1 {
+  -border: 1px solid red;
+  font-size: 96px;
+  font-weight: 600;
+  width: 70%;
+  line-height: 1.4em;
+  position: relative;
+  left: 150px;
+}
+
+.btn_1 {
+  -border: 1px solid red;
+  height: 51px;
+  width: 140.16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 0;
+}
+
+.btn_1:hover {
+  background-color: #f7f7f7;
+  border: 2px solid green;
+  -text-shadow: 2px 2px 4px #dddd;
+  color: green;
+}
+
+.t {
+  color: #2a2a2a;
+  line-height: 1.2em;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.tt {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.85714285714286;
+  color: #5a5a5a;
+}
+
+/*Image hover css*/
+.img-hover {
+  -border: 1px solid;
+  overflow: hidden;
+}
+
+.img-1 {
+  -border: 1px solid red;
+  transition: transform 0.2s ease-in-out;
+}
+
+.img-hover:hover .img-1 {
+  transform: scale(1.1);
+}
+
+.main2 {
+  -border: 1px solid red;
+}
+
+.Cactus {
+  font-family: "Frank Ruhl Libre", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.hover-effect span {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.hover-effect span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 110%;
+  height: 1px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.hover-effect:hover span::after {
+  background-color: green;
+}
+
+.Featured {
+  line-height: 1.3em;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.para {
+  margin-top: 10px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.85714285714286;
+  color: #5a5a5a;
+}
+
+.view {
+  width: 173.3px;
+  height: 51px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  background-color: #45ab84;
+  color: white;
+}
+
+.view:hover {
+  border: 2px solid #45ab84;
+  background-color: #f7f7f7;
+  color: #45ab84;
+}
+
+.sale {
+  position: absolute;
+  border-radius: 20px;
+  padding: 0.3em 0.8em;
+  background-color: #f7f7f7;
+  top: 1.5em;
+  left: 1.5em;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 13.92px;
+  color: #5a5a5a;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.b1 {
+  position: absolute;
+  top: 1.5em;
+  left: 265px;
+  border-radius: 20px;
+  padding: 7px;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: normal;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #f7f7f7;
+  display: none;
+}
+
+.e1 {
+  display: none;
+  position: absolute;
+  top: 70px;
+  font-size: 14px;
+  left: 265px;
+  border-radius: 20px;
+  padding: 7px;
+  line-height: normal;
+  letter-spacing: normal;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #f7f7f7;
+}
+
+.img1:hover .b1 {
+  display: block;
+}
+
+.img1:hover .e1 {
+  display: block;
+}
+
+.img2:hover .b1 {
+  display: block;
+}
+
+.img2:hover .e1 {
+  display: block;
+}
+
+.img3:hover .b1 {
+  display: block;
+}
+
+.img3:hover .e1 {
+  display: block;
+}
+
+.img4:hover .b1 {
+  display: block;
+}
+
+.img4:hover .e1 {
+  display: block;
+}
+
+.icon_box {
+  border: none;
+  height: 32px;
+  width: 32px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: #71717125;
+  color: #45ab84;
+}
+
+.icon_box:hover {
+  background-color: #45ab84;
+  color: #fff;
+}
+
+.shop_now {
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.shop_now:hover {
+  color: #45ab84;
+}
+
+.tree_image {
+  background-image: url(/images/b_13.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 480px auto;
+}
+
+.online {
+  -border: 1px solid red;
+  font-weight: 700;
+  font-family: 'Frank Ruhl Libre', serif;
+  line-height: 1.3em;
+  font-size: 48px;
+  position: relative;
+  left: 280px;
+  top: 120px;
+}
+
+.curae {
+  position: relative;
+  left: 350px;
+  top: 130px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.85714285714286;
+  color: #5a5a5a;
+
+}
+
+.availbtn {
+  border: none;
+  background-color: #45ab84;
+  color: #fff;
+  position: relative;
+  left: 600px;
+  top: 130px;
+  width: 137.67px;
+  height: 51px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.availbtn:hover {
+  border: 2px solid #45ab84;
+  background-color: #f7f7f7;
+  color: #45ab84;
+}
+
+.tree_image_1 {
+  background-image: linear-gradient(45deg,
+      rgba(240, 243, 238, 0.829),
+      rgba(240, 243, 238, 0.849)), url(/images/b_14.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.content {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  line-height: 1.85714285714286;
+}
+
+.content_1 {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  line-height: 1.85714285714286;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.box_1:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #45ab84;
+}
+
+.Image1 {
+  background-image: linear-gradient(rgba(21, 28, 11, 0.459), rgba(21, 28, 11, 0.452)), url(/images/b_11.jpg);
+  height: 417px;
+  width: 719.6px;
+  background-size: cover;
+}
+
+.Image2 {
+  background-image: linear-gradient(rgba(21, 28, 11, 0.459), rgba(21, 28, 11, 0.452)), url(/images/b_12.jpg);
+  height: 416px;
+  width: 719.6px;
+  margin-left: -7px;
+}
+
+.icon_box1 {
+  border: none;
+  height: 37px;
+  width: 37px;
+  box-sizing: border-box;
+  background-color: #71717125;
+  color: #fff;
+  background-color: #00AB84;
+}
+
+@media (max-width: 767px) {
+  .zero {
+    display: none;
+  }
+
+  .fa-basket-shopping {
+    display: none;
+  }
+}

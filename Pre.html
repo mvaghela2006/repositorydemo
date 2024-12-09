@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Link to Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="sidebar-main">
+                <!-- Search Widget -->
+                <div class="widget woocommerce widget_product_search">
+                    <form role="search" method="get" class="woocommerce-product-search" action="https://websitedemos.net/plant-shop-04/">
+                        <div class="mb-3">
+                            <label for="woocommerce-product-search-field-0" class="form-label">Search for:</label>
+                            <input type="search" id="woocommerce-product-search-field-0" class="form-control" placeholder="Search products…" name="s">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Search</button>
+                        <input type="hidden" name="post_type" value="product">
+                    </form>
+                </div>
+
+                <!-- Categories Widget -->
+                <div class="widget woocommerce widget_product_categories">
+                    <h2 class="h5 widget-title">Categories</h2>
+                    <ul class="list-unstyled">
+                        <li class="cat-item cat-item-33"><a href="https://websitedemos.net/plant-shop-04/product-category/bonsai/?customize=template">Bonsai</a> <span class="badge bg-secondary">(4)</span></li>
+                        <li class="cat-item cat-item-34"><a href="https://websitedemos.net/plant-shop-04/product-category/cactus/?customize=template">Cactus</a> <span class="badge bg-secondary">(4)</span></li>
+                        <li class="cat-item cat-item-35"><a href="https://websitedemos.net/plant-shop-04/product-category/indoor-plants/?customize=template">Indoor Plants</a> <span class="badge bg-secondary">(5)</span></li>
+                        <li class="cat-item cat-item-36"><a href="https://websitedemos.net/plant-shop-04/product-category/succulent/?customize=template">Succulent</a> <span class="badge bg-secondary">(4)</span></li>
+                    </ul>
+                </div>
+
+                <!-- Price Filter Widget -->
+                <div class="widget woocommerce widget_price_filter">
+                    <h2 class="h5 widget-title">Filter by price</h2>
+                    <form method="get" action="https://websitedemos.net/plant-shop-04/shop/">
+                        <div class="mb-3">
+                            <label for="min_price" class="form-label">Min Price</label>
+                            <input type="text" id="min_price" name="min_price" class="form-control" value="10" placeholder="Min price">
+                        </div>
+                        <div class="mb-3">
+                            <label for="max_price" class="form-label">Max Price</label>
+                            <input type="text" id="max_price" name="max_price" class="form-control" value="210" placeholder="Max price">
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Filter</button>
+                        <div class="price_label mt-3">
+                            Price: <span class="from">$10</span> — <span class="to">$210</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Link to Bootstrap 5 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

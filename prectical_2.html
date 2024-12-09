@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      .main {
+        height: 600px;
+        width: 100%;
+        display: flex;
+      }
+
+      .box1 {
+        -border: 1px solid red;
+        height: 100%;
+        width: 33.33%;
+        background-color: darkcyan;
+      }
+
+      .box2 {
+        -border: 1px solid red;
+        height: 100%;
+        width: 33.33%;
+        background-color: darkgoldenrod;
+      }
+
+      .box3 {
+        -border: 1px solid red;
+        height: 100%;
+        width: 33.33%;
+        background-color: darkgray;
+      }
+
+      @media (max-width: 575px) {
+        .main {
+          -border: 1px solid red;
+          display: block;
+        }
+
+        .box1 {
+          width: 100%;
+          height: 200px;
+        }
+
+        .box2 {
+          width: 100%;
+          height: 200px;
+        }
+
+        .box3 {
+          width: 100%;
+          height: 200px;
+        }
+      }
+
+      @media (min-width: 576px) and (max-width: 991px) {
+        .main {
+          -border: 1px solid red;
+          display: block;
+        }
+
+        .box1 {
+          width: 50%;
+          height: 300px;
+          float: left;
+        }
+
+        .box2 {
+          width: 50%;
+          height: 300px;
+          float: right;
+        }
+
+        .box3{
+           width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+    </div>
+  </body>
+</html>

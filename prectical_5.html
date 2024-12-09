@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 100vh;
+      }
+
+      .container {
+        background-color: white;
+        padding: 20px 35px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+      }
+
+      .form-group input,
+      .select select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      .radio-group {
+        display: flex;
+        align-items: center;
+      }
+
+      .radio-group,
+      .gender {
+        margin-right: 5px;
+        margin-bottom: 10px;
+      }
+
+      .checkbox,
+      .checkbox {
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+
+      .form-group button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      .form-group button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login Form</h2>
+
+      <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" />
+      </div>
+
+      <div class="form-group">
+        <label for="">Password</label>
+        <input type="password" />
+      </div>
+
+      <div class="radio-group">
+        <input type="radio" name="gender" value="male" class="gender" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" class="gender" />
+        <label for="female">Female</label>
+      </div>
+
+      <div class="checkbox">
+        <input type="checkbox" class="checkbox" />Hindi
+        <input type="checkbox" class="checkbox" />English
+        <input type="checkbox" class="checkbox" />Gujarati
+      </div>
+
+      <div class="select">
+        <select name="" id="">
+          <option value="">Select Value</option>
+          <option value="">Value_1</option>
+          <option value="">Value_2</option>
+          <option value="">Value_3</option>
+          <option value="">Value_4</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <button>Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

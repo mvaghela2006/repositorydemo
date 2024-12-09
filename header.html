@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/header.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Logo</h1>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+
+      <button>Submite</button>
+
+      <div class="menulogo">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <div class="menu_">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Service</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // $(document).ready(function () {
+      //   // alert("test");
+      // });
+
+      $(".fa-bars").click(function () {
+        //alert("test");
+        $(".menu_").toggle();
+      });
+    </script>
+  </body>
+</html>

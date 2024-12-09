@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo of web</title>
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css ">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+  
+
+ <style>
+    .btn-theme {
+      background-color: #17A2B8;
+    }
+    .btn-theme {
+      background-color: #00394F;
+    }
+    .btn-theme:hover,
+    .learning {
+      background-color: #001D29;
+    }
+   .ly-5 {
+      background-color: #17A2B8;
+      color: white;
+    }
+    .fw-bold:hover {
+      color: #B0DDF4
+    }
+    .header {
+      background-color: #F8F9FA;
+    }
+    .fw-bold {
+      color: rgb(10, 7, 7);
+    }
+    .hy {
+      -border: 1px solid red;
+      font-size: 50px;
+
+    }
+    .gt {
+      background-color: #F8F9FA;
+    }
+   .th {
+      color: #5AB1C3;
+    }
+    .bg-1 {
+      background-color: #17A2B8
+    }
+    .bg-1:hover {
+      background-color: #138496;
+    }
+    .bi-check-lg {
+      color: #17A2B8;
+
+    }
+    h3 {
+      color: #17A2B8;
+    }
+    h5 {
+      border-color: #DEE2E6;
+    }
+    .yj {
+      background-color: #17A2B8;
+    }
+    .vg {
+      background-color: #F8F9FA;
+    }
+    .cs {
+      color: #17A2B8;
+    }
+    .bi {
+      color: #171919;
+    }
+    .bi-check-lg {
+      font-size: 25px;
+    }
+    .jj {
+      color: green;
+    }
+    .t {
+      font-family: Handlee, cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+    input {
+      width: 80%;
+      height: 52px;
+    }.icon-overlay {
+      -border: 1px solid red;
+      position: absolute;
+      top: 0;
+      background-color: rgba(51, 151, 161, 0.7);
+      ;
+      inset: 0;
+      border-radius: 300px;
+      opacity: 0;
+      transform: 2s;
+    }
+    .icon-overlay a {
+      border: 1px solid #fff;
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 33px;
+      border-radius: 50px;
+      color: #fff;
+    }
+    .Teachers-box:hover .icon-overlay {
+      opacity: 1;
+    }
+    .icon-overlay a:hover {
+      background-color: #fff;
+      color: #333;
+    }
+    .tt {
+      font-size: 30px;
+    }
+    h6 {
+      color: #606c60;
+    }
+    .body {
+      background-color: #F8F9FA;
+      border: none;
+    }
+    th,
+    td {
+      background-color: #F8F9FA !important;
+    }
+    .si {
+      font-size: 20px;
+
+    }
+    .er {
+      background-color: #F8F9FA;
+    }
+    .ty{
+      font-size: 25px;
+      color: #138496; 
+    
+    }
+    .footer-icon{
+      border: 1px solid #fff;
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 33px;
+      border-radius: 50px;
+      color: #96132b;
+    }
+    footer{
+      background-color: #00394F;
+    }
+    .footer-icon:hover{
+      background-color: #138496;
+    }
+    .size-footer{
+    font-size: 25px;
+    color: #138496;
+   }
+   .home-border:hover{
+    border-bottom: 1px solid;
+   }
+   .f-r{
+    color: #138496;
+   }
+   .f-r:hover{
+    color: #0F6674;
+    border-bottom: 1px solid #0F6674 ;
+   }
+   .size-icon{
+        font-size: 30px;
+        color: aquamarine;
+    }
+    .text-color{
+        color: rgb(238, 180, 93);
+        font-size: 18px;
+        background-color: #F8F9FA;
+    } 
+    .colorname{
+        color: #7FFFD4;
+    }
+    .color-name{
+        color: #F0B45D;
+    }
+    .hover-effect span {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px; /* Space for the border */
+}
+
+.hover-effect span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.hover-effect:hover span::after {
+  background-color: green;
+}
+
+    </style>
+</head>
+
+<body>
+
+  <!-- header start-->
+
+  <div class="header p-3 shadow-sm ">
+    <div class="container">
+      <div class="d-flex  justify-content-between align-items-center  ">
+        <h1 class=" cs  align-items-center "><i class="bi bi-camera-fill"></i><b> KidKinder</b></h3>
+          <ul class="nav align-items-center">
+            <li class="nav-item "><a href="#" class="nav-link fw-bold  ">Home</a></li>
+            <li class="nav-item "><a href="#" class="nav-link fw-bold ">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-bold">Content</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-bold">Gallery</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-bold">Pages</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-bold">Teachers</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-bold">Classes</a></li>
+          </ul>
+          <button class=" btn btn-theme rounded-pill  text-white px-4">Join Class</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="ly-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div>
+
+            <span class="h4 t ">Kids learning Center</span>
+            <h2 class="my-4 h1 t " style="font-size: 60px;">New Approach to<br> Kids Education</h2>
+            <p> Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet
+              sed sit. Ipsum dolor no
+              justo dolor et, lorem ut dolor erat dolore sed ipsum at i
+              psum nonumy amet. Clita lorem
+              dolore sed stet et est justo dolore.</p>
+            <button class="rounded-pill  my-4 btn btn-theme text-white px-5
+                            py-3">Learn More</button>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div>
+            <img src="/image/header.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- header end -->
+
+  <!-- <---2 start--->
+  <div class="container my-5 mt-5">
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card rounded-2 shadow-sm bg-light p-4">
+          <div class="d-flex">
+            <i class="bi bi-sliders2-vertical pe-4 tt mt-3"></i>
+            <div>
+              <h4 class="t">Play Ground</h4>
+              <p>Kasd labore kasd et dolor est <br>
+                rebum dolor ut, clita dolor vero <br> lorem amet elitr vero...</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card rounded-2 shadow-sm bg-light p-4">
+          <div class="d-flex">
+            <i class="bi bi-instagram tt pe-4 mt-3"></i>
+            <div>
+              <h4 class="t">Music and Dance</h4>
+              <p>Kasd labore kasd et dolor est <br>
+                rebum dolor ut, clita dolor vero <br> lorem amet elitr vero...</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card rounded-2 shadow-sm bg-light p-4">
+          <div class="d-flex">
+            <i class="bi bi-layout-three-columns tt pe-4 mt-3"></i>
+            <div>
+              <h4 class="t">Arts and Crafts</h4>
+              <p>Kasd labore kasd et dolor est <br>
+                rebum dolor ut, clita dolor vero <br> lorem amet elitr vero...</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card rounded-2 shadow-sm bg-light p-4">
+          <div class="d-flex">
+            <i class="bi bi-car-front tt pe-3 mt-3"></i>
+            <div>
+              <h4 class="t">
+                Safe Transportation</h4>
+              <p>Kasd labore kasd et dolor est <br>
+                rebum dolor ut, clita dolor vero <br> lorem amet elitr vero...</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card rounded-2 shadow-sm bg-light p-4">
+          <div class="d-flex">
+            <i class="bi bi-hospital-fill tt pe-3 mt-3"></i>
+            <div>
+              <h4 class="t">
+                Healthy food</h4>
+              <p>Kasd labore kasd et dolor est <br>
+                rebum dolor ut, clita dolor vero <br> lorem amet elitr vero...</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card rounded-2 shadow-sm bg-light p-4">
+          <div class="d-flex">
+            <i class="bi bi-backpack3 pe-3 mt-3 tt"></i>
+            <div>
+              <h4 class="t">
+                Educational Tour</h4>
+              <p>Kasd labore kasd et dolor est <br>
+                rebum dolor ut, clita dolor vero <br> lorem amet elitr vero...</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 2end -->
+
+  <!-- Learn About Us Best School For Your Kids start-->
+
+  <div class="container mt-5 ">
+    <div class="row align-items-center">
+      <div class="col-md-5">
+        <div>
+          <img src="/image/about-1.jpg" alt="" width="100%" class="rounded-2 shadow-lg">
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div>
+          <h5 style="float: center; color: #17A2B8;">Learn About Us</h5>
+          <h1 class="t">Best school for your kids</h1>
+        </div>
+        <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor
+          kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+
+        <div class="d-flex align-items-center ">
+
+          <img src="/image/about-2.jpg" alt="" class="img-fluid">
+          <div class="flex-fill ms-3 border-bottom">
+            <h6 class="border-top"><span><i class="bi bi-check-lg me-4  text-info "></i>Labore eos amet dolor amet
+                diam</span></h2>
+
+              <h6 class="border-top"><span><i class="bi bi-check-lg me-4  text-info "></i>Etsea et sit dolor amet
+                  ipsum</span></h2>
+
+                <h6 class="border-top   "><span><i class="bi bi-check-lg me-4  text-info "></i>Diam dolor diam
+                    elitripsum vero.</span></h2>
+
+
+
+          </div>
+        </div>
+        <button class="rounded-pill mt-4 p-2 py-2 px-4 bg-1 border-0 text-white">Join Now</button>
+
+      </div>
+    </div>
+  </div>
+
+<!-- Learn About Us Best School For Your Kids end -->
+
+
+<!-- Popular Classes Classes for Your Kids start -->
+
+  <div class="container my-5 mt-5">
+    <div class="text-center">
+      <h5 class="lead fw-bold" style="color: #17A2B8;">----Popular Classes-----</h5>
+      <h1 class="t">Classes for Your Kids</h1>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm" style="background-color: #F8F9FA;">
+          <img src="/image/class-1.jpg" alt="" class="img-fluid" style="border-radius: 5px 5px 0px 0px;">
+          <div class="card-body text-center">
+            <h4 class="t">Drawing Class</h4>
+            <p>Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet
+              clita duo</p>
+            <hr>
+            <table class="table w-75 mx-auto ">
+              <tr>
+                <th style="color: #666666;">Age of Kids</th>
+                <td style="color: #666666;">3 - 6 Years</td>
+              </tr>
+              <tr>
+                <th style="color: #666666;">Total Seats</th>
+                <td style="color: #666666;">40 Seats</td>
+              </tr>
+              <tr>
+                <th style="color: #666666;">Class Time</th>
+                <td style="color: #666666;">08:00 - 10:00</td>
+              </tr>
+              <tr>
+                <th style="color: #666666;">Tution Fee</th>
+                <td style="color: #666666;">$290 / Month</td>
+              </tr>
+            </table>
+           
+            <button class=" btn btn rounded-pill  px-4 bg-1 border-0 text-white">Join Now</button>
+          
+              
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm" style="background-color: #F8F9FA;">
+          <img src="/image/class-2.jpg" alt="" class="img-fluid" style="border-radius: 5px 5px 0px 0px;">
+          <div class="card-body text-center">
+            <h4 class="t">Language Learning</h4>
+            <p>Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet
+              clita duo</p>
+            <hr>
+            <table class="table w-75 mx-auto ">
+              <tr>
+                <th style="color: #666666;">Age of Kids</th>
+                <td style="color: #666666;">3 - 6 Years</td>
+              </tr>
+              <tr>
+                <th style="color: #666666;">Total Seats</th>
+                <td style="color: #666666;">40 Seats</td>
+              </tr>
+              <tr>
+                <th style="color: #666666;">Class Time</th>
+                <td style="color: #666666;">08:00 - 10:00</td>
+              </tr>
+              <tr>
+                <th style="color: #666666;">Tution Fee</th>
+                <td style="color: #666666;">$290 / Month</td>
+              </tr>
+            </table>
+            <button class=" btn btn rounded-pill px-4 bg-1 border-0 text-white">Join Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm" style="background-color: #F8F9FA;">
+          <img src="/image/class-3.jpg" alt="" class="img-fluid" style="border-radius: 5px 5px 0px 0px ;">
+          <div class="card-body text-center">
+            <h4 class="t">Basic Science</h4>
+            <p>Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet
+              clita duo</p>
+            <hr>
+            <table class="table w-75 mx-auto ">
+              <tr>
+                <th style="color: #666666;">Age of Kids</th>
+                <td style="color: #666666;">3 - 6 Years</td>
+              </tr>
+              <tr>
+                <th style="color: #666666;">Total Seats</th>
+                <td style="color: #666666;">40 Seats</td>
+              </tr>
+              <tr>
+                <th style="color: #666666;">Class Time</th>
+                <td style="color: #666666;">08:00 - 10:00</td>
+              </tr>
+              <tr>
+                <th style="color: #666666;">Tution Fee</th>
+                <td style="color: #666666;">$290 / Month</td>
+              </tr>
+            </table>
+            <button class= " btn btn rounded-pill px-4 bg-1 border-0 text-white">Join Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popular Classes Classes for Your Kids end -->
+
+  <!-- Book A Seat Book A Seat For Your Kid start-->
+
+  <div class="container mt-5 d-flex">
+    <div class="col-md-7">
+      <h5>Book A Seat----</h5>
+      <h2 class="mt-3 t">Book A Seat For Your Kid</h2>
+      <p class="mt-4">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed breos,
+        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+      <div>
+        <p><i class="bi bi-check-lg me-2  jj "></i>Labore eos amet dolor amet diam</p>
+        <p><i class="bi bi-check-lg me-2  jj "></i>Etsea et sit dolor amet ipsum</p>
+        <p><i class="bi bi-check-lg me-2  jj "></i>Diam dolor diam elitripsum vero.</p>
+        <button class="rounded-pill mt-4 p-2 py-2 px-4 bg-1 border-0 text-white">Book Now</button>
+      </div>
+    </div>
+    <div class="col-md-5 bg-info">
+      <h2 class="bg-dark text-white p-4 text-center t">Book A Seat</h2>
+
+      <div class=" text-center my-5 ">
+
+        <input type="" placeholder="Your Name" class="ps-4 rounded-3">
+        <input type="" placeholder="Your Email" class="mt-3 ps-4 rounded-3">
+
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container p-2 d-flex" style="border: 1px solid red">
+    <div class="row container-fluid">
+      <div class="col-sm-3 text-center hover-effect">
+        <span class="text-dark Cactus">Cactus</span>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: 15px;"></i>
+      </div>
+      
+      <div class="col-sm-3 text-center hover-effect">
+        <span class="text-dark Cactus">Cactus</span>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: 15px;"></i>
+      </div>
+      
+      <div class="col-sm-3 text-center hover-effect">
+        <span class="text-dark Cactus">Cactus</span>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: 15px;"></i>
+      </div>
+      
+      <div class="col-sm-3 text-center hover-effect">
+        <span class="text-dark Cactus">Cactus</span>
+        <i class="fa-solid fa-arrow-right-long" style="font-size: 15px;"></i>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container-fluid d-flex" style="height: 806.44px;">
+    <!-- Left Column (Images) -->
+    <div class="col-md-6 col-12 d-flex flex-column justify-content-center align-items-center" style="margin-top: 130px;">
+        <div class="mb-3">
+            <img src="/images/b_10.jpg" alt="" style="width: 317.25px; height: 475.38px;">
+        </div>
+        <div>
+            <img src="/images/b_9.jpg" alt="" style="width: 317.25px; height: 475.88px;">
+        </div>
+    </div>
+
+    <!-- Right Column (Text) -->
+    <div class="col-md-6 col-12 d-flex justify-content-center align-items-center" style="margin-top: 20px; padding-left: 70px;">
+        <div style="width: 634.5px; height: 598.44px;">
+            <h5 class="text-success fw-bold fs-5">We Help Gardens Thrive!</h5>
+            <h2 class="mt-3" style="line-height: 1.3em; font-weight: 700; font-family: 'Frank Ruhl Libre', serif; font-size: 48px;">
+                Nonummy Cum <br> Convallis
+            </h2>
+            <p class="mt-4" style="font-family: 'Rubik', sans-serif; font-weight: 500; font-size: 16px; color: #5a5a5a; line-height: 1.85714285714286;">
+                Elementum tristique mi montes nibh deserunt magna. Netus <br> assumenda molestias nisi porro, nascetur molas. Habitant urna <br> fugiat wisi nceptos sodales magna. Molestie suspendisse faucibus <br> justo! Sollicitudin tempore unde, dolorem, blanditiis a nam beatae <br> nihil bibendum, taciti.
+            </p>
+            <i aria-hidden="true" class="fas fa-quote-left text-success fs-4 mt-3"></i>
+            <h4 class="mt-1" style="line-height: 1.2em; font-weight: 700; font-family: 'Frank Ruhl Libre', serif;">
+                Tempore ut mauris aenean cillum ultrices <br> nunc aliqu auris aenean mpore utma.
+            </h4>
+            <img src="/images/b_sign.png" alt="Signature" height="74px" width="74px">
+            <div class="d-flex mt-3">
+                <div class="d-flex m-0 p-0">
+                    <div class="icon_box m-2 d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="icon_box m-2 d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="icon_box m-2 d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="icon_box m-2 d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+  
+  
+</body>
+</html>

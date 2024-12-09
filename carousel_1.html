@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  </head>
+  <style>
+    .item {
+      border: 1px solid red;
+    }
+
+    .box {
+      border: 1px solid red;
+      width: 100px;
+      height: 100px;
+    }
+
+    .thumbnail {
+      border: 1px solid green;
+    }
+  </style>
+  <body>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <div class="page-header">
+            <h3>Bootstrap</h3>
+            <p>Responsive Moving Box Carousel Demo</p>
+          </div>
+
+          <div class="carousel slide" id="myCarousel">
+            <div class="carousel-inner d-flex">
+              <div class="item active">
+                <ul
+                  class="thumbnails d-flex"
+                  style="text-decoration: none; list-style: none"
+                >
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+
+                      <!-- <a href="#"><img src="http://placehold.it/360x240" alt=""></a> -->
+                    </div>
+                  </li>
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- /Slide1 -->
+              <div class="item">
+                <ul
+                  class="thumbnails d-flex"
+                  style="list-style: none; text-decoration: none"
+                >
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- /Slide2 -->
+              <div class="item">
+                <ul
+                  class="thumbnails d-flex"
+                  style="list-style: none; text-decoration: none"
+                >
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                  <li class="span3">
+                    <div class="thumbnail">
+                      <div class="box">1</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- /Slide3 -->
+            </div>
+
+            <!-- <div class="control-box">                            
+                    <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+                    <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+                </div>/.control-box    -->
+
+            <!-----Indicators------->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="0"
+                class="active bg-success"
+                style="width: 10px; height: 10px; border-radius: 50%"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="1"
+                class="bg-success"
+                style="width: 10px; height: 10px; border-radius: 50%"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="2"
+                class="bg-success"
+                style="width: 10px; height: 10px; border-radius: 50%"
+              ></button>
+            </div>
+          </div>
+          <!-- /#myCarousel -->
+        </div>
+        <!-- /.span12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+  </body>
+</html>

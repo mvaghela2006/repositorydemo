@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        -border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        -background-color: aliceblue;
+        box-sizing: border-box;
+        box-shadow: 4px 2px 2px silver;
+      }
+
+      .logo {
+        -border: 1px solid red;
+        margin-left: 50px;
+        padding: 5px;
+      }
+
+      .menu {
+        margin-right: 50px;
+      }
+
+      .menu ul {
+        -border: 1px solid red;
+        display: flex;
+        padding: 10px;
+      }
+
+      .menu ul li {
+        -border: 1px solid green;
+        list-style: none;
+        margin: 10px;
+      }
+
+      .menu ul li a {
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      @media (max-width: 575px) {
+        header {
+          -border: 1px solid red;
+          justify-content: flex-start;
+          height: 550px;
+          width: 40%;
+          -width: fit-content;
+        }
+
+        .menu {
+          -border: 1px solid red;
+          position: relative;
+          top: 70px;
+          left: -80px;
+          height: fit-content;
+        }
+
+        .menu ul {
+          display: block;
+          -border: 1px solid;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Logo</h1>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Pages</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+  </body>
+</html>

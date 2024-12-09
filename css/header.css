@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/1-about.jpg);
+}
+
+header {
+  -border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+
+.menu {
+  -border: 1px solid red;
+  height: fit-content;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  -border: 1px solid;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  -border: 1px solid red;
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 10px;
+}
+.menulogo{
+  display: none;
+}
+
+.fa-bars {
+  -border: 1px solid red;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(246, 174, 79);
+  text-align: center;
+  -display: none;
+  font-size: 20px;
+  color: white;
+}
+
+
+button {
+  border: none;
+  width: 145px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: bisque;
+}
+
+
+.menu_ {
+  -border: 1px solid red;
+  height: fit-content;
+  background-color: white;
+  display: none;
+}
+
+.menu_ ul {
+  display: block;
+  list-style: none;
+  -border: 1px solid;
+  margin: 0;
+  padding: 0;
+}
+
+.menu_ ul li {
+  border-bottom: 1px solid silver;
+  padding: 10px;
+}
+
+.menu_ ul li a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+
+
+@media (max-width: 575px) {
+  header {
+    border: 1px solid red;
+  }
+
+  .menu,.menu_{
+    display: none;
+  }
+
+  .menulogo{
+    display: block;
+  }
+
+  button{
+    display: none;
+  }
+}

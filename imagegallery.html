@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .imagegallary {
+        display: flex;
+        justify-content: center;
+      }
+      .box {
+        -border: 1px solid red;
+      }
+
+      .contant1 {
+        -border: 1px solid red;
+        width: 100%;
+      }
+      .contant2 {
+        -border: 1px solid red;
+        width: 100%;
+      }
+      @media (max-width: 575px) {
+        .imagegallary {
+          -border: 1px solid red;
+        }
+        .contant1 {
+          -border: 1px solid red;
+        }
+        .contant1 img {
+          width: 100%;
+        }
+      }
+
+      @media (min-width: 576px) and (max-width: 991px) {
+        .contant1 img {
+          -border: 5px solid black;
+          width: 40%;
+        }
+        .contant1 {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="imagegallary">
+      <div class="box">
+        <div class="contant1">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzb7kqj42EQPkCTAjLOf9kOHdyip1CbQ_i0w&s"
+            alt=""
+            width="24.5%"
+            class="one"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzb7kqj42EQPkCTAjLOf9kOHdyip1CbQ_i0w&s"
+            alt=""
+            width="24.5%"
+            class="two"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzb7kqj42EQPkCTAjLOf9kOHdyip1CbQ_i0w&s"
+            alt=""
+            width="24.5%"
+            class="three"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzb7kqj42EQPkCTAjLOf9kOHdyip1CbQ_i0w&s"
+            alt=""
+            width="24.5%"
+            class="four"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
